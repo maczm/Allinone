@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.allinone.mapper.WarehouseLocationMapper">
+    <resultMap id="BaseResultMap" type="com.allinone.domain.WarehouseLocation">
+        <id column="ID" jdbcType="INTEGER" property="id"/>
+        <result column="Location" jdbcType="VARCHAR" property="location"/>
+        <result column="Facility" jdbcType="VARCHAR" property="facility"/>
+        <result column="Warehouse" jdbcType="VARCHAR" property="warehouse"/>
+        <result column="WarehouseLocationType" jdbcType="SMALLINT" property="warehouseLocationType"/>
+        <result column="Zone" jdbcType="VARCHAR" property="zone"/>
+        <result column="StorageBin" jdbcType="VARCHAR" property="storageBin"/>
+        <result column="WalkPath" jdbcType="INTEGER" property="walkPath"/>
+        <result column="AllocationPath" jdbcType="INTEGER" property="allocationPath"/>
+        <result column="FillPath" jdbcType="INTEGER" property="fillPath"/>
+        <result column="XCoordinate1" jdbcType="DECIMAL" property="xCoordinate1"/>
+        <result column="YCoordinate1" jdbcType="DECIMAL" property="yCoordinate1"/>
+        <result column="ZCoordinate1" jdbcType="DECIMAL" property="zCoordinate1"/>
+        <result column="UomCodeXCoordinate1" jdbcType="VARCHAR" property="uomCodeXCoordinate1"/>
+        <result column="UomCodeYCoordinate1" jdbcType="VARCHAR" property="uomCodeYCoordinate1"/>
+        <result column="UomCodeZCoordinate1" jdbcType="VARCHAR" property="uomCodeZCoordinate1"/>
+        <result column="MapID1" jdbcType="INTEGER" property="mapID1"/>
+        <result column="XCoordinate2" jdbcType="DECIMAL" property="xCoordinate2"/>
+        <result column="YCoordinate2" jdbcType="DECIMAL" property="yCoordinate2"/>
+        <result column="ZCoordinate2" jdbcType="DECIMAL" property="zCoordinate2"/>
+        <result column="UomCodeXCoordinate2" jdbcType="VARCHAR" property="uomCodeXCoordinate2"/>
+        <result column="UomCodeYCoordinate2" jdbcType="VARCHAR" property="uomCodeYCoordinate2"/>
+        <result column="UomCodeZCoordinate2" jdbcType="VARCHAR" property="uomCodeZCoordinate2"/>
+        <result column="MapID2" jdbcType="INTEGER" property="mapID2"/>
+        <result column="OALocatorID" jdbcType="INTEGER" property="oALocatorID"/>
+        <result column="TextID" jdbcType="INTEGER" property="textID"/>
+        <result column="Department" jdbcType="VARCHAR" property="department"/>
+        <result column="CalendarID" jdbcType="INTEGER" property="calendarID"/>
+        <result column="MobilityID" jdbcType="INTEGER" property="mobilityID"/>
+        <result column="OwnershipID" jdbcType="INTEGER" property="ownershipID"/>
+        <result column="UnitID" jdbcType="INTEGER" property="unitID"/>
+        <result column="SpecificationID" jdbcType="INTEGER" property="specificationID"/>
+        <result column="Aisle" jdbcType="VARCHAR" property="aisle"/>
+        <result column="Row_" jdbcType="VARCHAR" property="row"/>
+        <result column="Tier" jdbcType="VARCHAR" property="tier"/>
+        <result column="WorkCenter" jdbcType="VARCHAR" property="workCenter"/>
+        <result column="WarehouseLocationClassID" jdbcType="INTEGER" property="warehouseLocationClassID"/>
+        <result column="CurrentWeightUtilization" jdbcType="DECIMAL" property="currentWeightUtilization"/>
+        <result column="CurrentSpaceUtilization" jdbcType="DECIMAL" property="currentSpaceUtilization"/>
+        <result column="ReferenceID" jdbcType="INTEGER" property="referenceID"/>
+        <result column="LastUpdateOn" jdbcType="TIMESTAMP" property="lastUpdateOn"/>
+        <result column="LastUpdatedBy" jdbcType="VARCHAR" property="lastUpdatedBy"/>
+        <result column="CreatedOn" jdbcType="TIMESTAMP" property="createdOn"/>
+        <result column="CreatedBy" jdbcType="VARCHAR" property="createdBy"/>
+        <result column="Active" jdbcType="BIT" property="active"/>
+        <result column="LastDeleteOn" jdbcType="TIMESTAMP" property="lastDeleteOn"/>
+        <result column="LastDeletedBy" jdbcType="VARCHAR" property="lastDeletedBy"/>
+        <result column="LastReactivateOn" jdbcType="TIMESTAMP" property="lastReactivateOn"/>
+        <result column="LastReactivatedBy" jdbcType="VARCHAR" property="lastReactivatedBy"/>
+        <result column="ArchiveID" jdbcType="INTEGER" property="archiveID"/>
+        <result column="LastArchiveOn" jdbcType="TIMESTAMP" property="lastArchiveOn"/>
+        <result column="LastArchivedBy" jdbcType="VARCHAR" property="lastArchivedBy"/>
+        <result column="LastRestoreOn" jdbcType="TIMESTAMP" property="lastRestoreOn"/>
+        <result column="LastRestoredBy" jdbcType="VARCHAR" property="lastRestoredBy"/>
+        <result column="RowVersionStamp" jdbcType="INTEGER" property="rowVersionStamp"/>
+        <result column="ControlNo" jdbcType="VARCHAR" property="controlNo"/>
+        <result column="DSID" jdbcType="VARCHAR" property="dsid"/>
+        <result column="DSName" jdbcType="VARCHAR" property="dSName"/>
+    </resultMap>
+</mapper>

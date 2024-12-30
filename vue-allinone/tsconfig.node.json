@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    // 指定 TypeScript 构建信息文件的位置
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    // 设置 JavaScript 语言版本为 ES2022
+    "target": "ES2022",
+    // 指定库文件
+    "lib": [
+      "ES2023"
+    ],
+    // 设置模块系统为 ESNext
+    "module": "ESNext",
+    // 跳过库检查
+    "skipLibCheck": true,
+    /* 打包模式 */
+    "moduleResolution": "bundler",
+    // 允许导入带有 .ts 扩展名的模块
+    "allowImportingTsExtensions": true,
+    // 启用独立模块编译
+    "isolatedModules": true,
+    // 强制模块检测
+    "moduleDetection": "force",
+    // 不生成输出文件
+    "noEmit": true,
+    /* 代码检查 */
+    "strict": true,
+    // 禁止未使用的局部变量
+    "noUnusedLocals": true,
+    // 禁止未使用的参数
+    "noUnusedParameters": true,
+    // 禁止 switch 语句中的 fallthrough 情况
+    "noFallthroughCasesInSwitch": true,
+    // 禁止未检查副作用的导入
+    "noUncheckedSideEffectImports": true
+  },
+  // 包含的文件模式
+  "include": [
+    "vite.config.ts"
+  ]
+}
